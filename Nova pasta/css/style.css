@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: black;
+}
+
+#centralizarParagafo{
+    text-align: center;
+}
+
+.conteudo{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    max-width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+p, h3{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+}
+
+li{
+    margin-left: 5rem;
+}
+
+nav{
+    text-align: center;
+    background-color: #fb493d;
+    height: 2rem;
+    font-size: 1.5rem;
+    word-spacing: 1rem;
+}
+
+nav a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 430px;
+}
+
+.centralizar{
+    text-align: center;
+}
